@@ -1,3 +1,32 @@
-h1 {
-    color:red;
+body {padding:0;
+    margin:0;
+    font-family: sans-serif;
+    background:#e7ecef;
+}
+
+h1 {margin: 0;
+    color:#e7ecef;
+}
+.header {
+background:#274c77;
+/* display:flex; */
+/* flex-direction:column; */
+/* align-items: center; */
+display:grid;
+grid-template-columns: 1fr 6fr;
+height:35vh;
+}
+.header__flex {display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 8vh;
+}
+button {
+border:none;
+background:none;
+
+}
+.header__subtitle {
+color: #e7ecefcc
+;
 }
